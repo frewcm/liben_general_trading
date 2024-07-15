@@ -29,7 +29,7 @@ export default function WelcomeTwo() {
                 src={service.img}
                 alt=""
               />
-              <p className="m-4 text-secondary font-kanit text-2xl">
+              <p className="m-4 text-secondary font-kanit text-2xl truncate">
                 {service.title}
               </p>
               <p className="my-6 mx-4 w-11/12 text-gray-400 text-lg lg:text-xl truncate ">

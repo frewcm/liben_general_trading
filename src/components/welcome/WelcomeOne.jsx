@@ -1,10 +1,10 @@
 export default function WelcomeOne() {
   return (
-    <section className="w-full mt-10 h-[900px] lg:h-screen bg-white font-kanit">
+    <section className="w-full mt-10 h-[1000px] md:h-screen bg-white font-kanit">
       <div className="w-11/12 mx-auto md:py-10 h-full flex flex-col items-center">
-        <p className="text-secondary">--welcome--</p>
+        <p className="text-secondary mt-6">--welcome--</p>
         <p className="text-4xl text-primary">What We Do Here</p>
-        <div className="grid grid-cols-1 lg:grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 mt-2">
           <div className="w-11/12 mx-auto mt-4 flex flex-col text-lg">
             <p className="text-center md:text-start">
               At Liben General Trading Company, we excel in a broad spectrum of
