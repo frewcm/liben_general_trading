@@ -74,7 +74,7 @@ export default function Nav() {
         }}
         animate={hidden ? "hidden" : "visible"}
         transition={{ duration: 0.45, ease: "easeInOut" }}
-        className={`z-50 fixed top-4 w-11/12 h-20 bg-white text-gray-900 rounded-t ${
+        className={`z-50 fixed top-4 w-11/12 mx-auto h-[90px] md:h-20 bg-white text-gray-900 rounded-t ${
           open ? "rounded-none" : "rounded-b"
         } font-kanit  transition ease-in-out`}
       >
