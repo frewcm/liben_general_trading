@@ -7,7 +7,7 @@ export default function Hero() {
       opacity: 1,
 
       transition: {
-        delay: 0.5,
+        delay: 0.7,
         duration: 1,
       },
     },
@@ -19,7 +19,7 @@ export default function Hero() {
       opacity: 1,
       x: 0,
       transition: {
-        delay: 0.5,
+        delay: 0.7,
         duration: 1,
       },
     },
@@ -30,7 +30,7 @@ export default function Hero() {
       opacity: 1,
       x: 0,
       transition: {
-        delay: 0.5,
+        delay: 0.7,
         duration: 1.2,
       },
     },
@@ -41,7 +41,7 @@ export default function Hero() {
       opacity: 1,
       x: 0,
       transition: {
-        delay: 0.5,
+        delay: 0.7,
         duration: 1.4,
       },
     },
@@ -52,7 +52,7 @@ export default function Hero() {
       opacity: 1,
       y: 0,
       transition: {
-        delay: 0.5,
+        delay: 0.7,
         duration: 1,
       },
     },

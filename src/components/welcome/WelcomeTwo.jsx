@@ -3,18 +3,6 @@ import { ServiceList } from "../../data/data";
 import { motion } from "framer-motion";
 
 export default function WelcomeTwo() {
-  const serviceVariant = {
-    hidden: {
-      opacity: 0,
-      x: -50,
-      y: -50,
-    },
-    visible: {
-      opacity: 1,
-      x: 0,
-      y: 0,
-    },
-  };
   return (
     <section className="w-full md:h-[1550px] lg:h-[200dvh] flex flex-col items-center justify-center backdrop-blur-sm">
       <div className="mt-8 md:mt-4 flex flex-col items-center justify-center">
@@ -29,7 +17,7 @@ export default function WelcomeTwo() {
         {ServiceList.map((service, i) => {
           return (
             <motion.div
-              initial={{ opacity: 0, scale: 0.5 }}
+              initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.1 * i, duration: 0.5 }}
               viewport={{ once: true }}
