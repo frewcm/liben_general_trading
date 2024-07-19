@@ -1,6 +1,6 @@
 export default function WelcomeOne() {
   return (
-    <section className="w-full mt-10 h-[1100px] md:h-[900px] bg-white font-kanit">
+    <section className="w-full h-[1100px] md:h-[900px] bg-white font-kanit">
       <div className="w-11/12 mx-auto md:py-10 h-full flex flex-col items-center">
         <p className="text-secondary my-2 mt-6">--welcome--</p>
         <p className="text-4xl text-primary">What We Do Here</p>
