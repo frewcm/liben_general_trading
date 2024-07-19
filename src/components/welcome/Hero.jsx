@@ -71,7 +71,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="absolute top-0 w-full h-[650px] md:h-screen overflow-hidden">
+    <section className="absolute top-0 w-full h-[800px] md:h-screen overflow-hidden">
       <motion.div
         variants={parentVariant}
         initial="hidden"
@@ -83,7 +83,7 @@ export default function Hero() {
             variants={sloganVariants}
             initial="hidden"
             animate="visible"
-            className="md:w-10/12 mt-16 text-3xl md:text-5xl font-kanit leading-snug tracking-wide text-center md:text-start"
+            className="md:w-10/12 mt-28 md:mt-16 text-3xl md:text-5xl font-kanit leading-snug tracking-wide text-center md:text-start"
           >
             Your Gateway to Efficient International Commerce Solutions
           </motion.p>
@@ -91,7 +91,7 @@ export default function Hero() {
             variants={buttonVariants}
             initial="hidden"
             animate="visible"
-            className="px-3 py-1.5 md:px-4 md:py-2 bg-secondary rounded"
+            className="mt-4 px-4 py-2 md:px-4 md:py-2 bg-secondary rounded"
           >
             Look Around.
           </motion.button>
@@ -101,7 +101,7 @@ export default function Hero() {
             variants={carVariants}
             initial="hidden"
             animate="visible"
-            className="absolute bottom-0 left-6 w-64 md:w-[400px] "
+            className="absolute bottom-10 md:bottom-0 left-6 w-64 md:w-[400px] "
             src="car.png"
             alt=""
           />
@@ -109,7 +109,7 @@ export default function Hero() {
             variants={cargoVariants}
             initial="hidden"
             animate="visible"
-            className="absolute bottom-0 right-10 w-44 md:w-64"
+            className="absolute bottom-10 md:bottom-0 right-10 w-44 md:w-64"
             src="cargo.png"
             alt=""
           />
@@ -117,7 +117,7 @@ export default function Hero() {
             variants={planeVariants}
             initial="hidden"
             animate="visible"
-            className="absolute bottom-[150px] left-20 md:bottom-56 w-64 md:w-80"
+            className="absolute bottom-48 left-10 md:left-20 md:bottom-56 w-64 md:w-80"
             src="plane.png"
             alt=""
           />

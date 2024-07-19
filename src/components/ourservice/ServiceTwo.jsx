@@ -4,7 +4,7 @@ export default function ServiceTwo() {
   return (
     <section className="mt-96 w-full h-full bg-white">
       <div className="w-11/12 mx-auto flex flex-col items-start justify-start">
-        <div className="w-full mt-16 flex flex-col h-[1100px] md:h-[850px] lg:h-[700px] text-gray-900 gap-2">
+        <div className="w-full mt-16 flex flex-col h-[1300px] md:h-[850px] lg:h-[700px] text-gray-900 gap-2">
           <p className="font-kanit text-2xl">
             01. Construction Machinary Rental
           </p>

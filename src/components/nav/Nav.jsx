@@ -39,7 +39,7 @@ export default function Nav() {
       initial={{ y: -82 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.3 }}
-      className="h-[480px] py-24 bg-white text-gray-950 fixed z-50 top-24 w-11/12 flex flex-col items-center justify-end gap-8 text-xl"
+      className="h-[500px] py-24 bg-white text-gray-950 fixed z-50 top-24 w-11/12 flex flex-col items-center justify-end gap-8 text-xl"
     >
       <li>
         <Link onClick={() => setOpen(false)} to="/">

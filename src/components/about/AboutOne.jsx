@@ -1,6 +1,6 @@
 export default function AboutOne() {
   return (
-    <section className="mt-96 w-full lg:h-screen md:h-[900px] h-[1200px] bg-white">
+    <section className="mt-96 w-full lg:h-screen md:h-[900px] h-[1500px] bg-white">
       <div className="w-11/12 mx-auto h-full flex flex-col ">
         <div className="mt-16 flex flex-col items-center justify-center gap-6 font-kanit text-gray-900 text-lg ">
           <p className="text-center leading-9">

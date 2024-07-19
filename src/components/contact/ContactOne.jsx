@@ -28,7 +28,7 @@ export default function ContactOne() {
           className="py-6 w-full h-full mx-auto flex flex-col items-center gap-6 "
         >
           <input
-            className="w-96 md:w-full h-12 rounded bg-tertiary pl-2 placeholder:text-gray-500 focus:outline-none"
+            className="w-80 md:96 md:w-full h-12 rounded bg-tertiary pl-2 placeholder:text-gray-500 focus:outline-none"
             placeholder="Name"
             type="text"
             id="name"
@@ -36,7 +36,7 @@ export default function ContactOne() {
           />
           <ValidationError prefix="Name" field="name" errors={state.errors} />
           <input
-            className="w-96 md:w-full h-12 rounded bg-tertiary pl-2 placeholder:text-gray-500 focus:outline-none"
+            className="w-80 md:96 md:w-full h-12 rounded bg-tertiary pl-2 placeholder:text-gray-500 focus:outline-none"
             placeholder="Email Name"
             id="email"
             type="email"
@@ -45,7 +45,7 @@ export default function ContactOne() {
           <ValidationError prefix="Email" field="email" errors={state.errors} />
 
           <input
-            className=" w-96 md:w-full h-12 rounded bg-tertiary pl-2 placeholder:text-gray-500 focus:outline-none"
+            className="w-80 md:96 md:w-full h-12 rounded bg-tertiary pl-2 placeholder:text-gray-500 focus:outline-none"
             placeholder="Phone Number"
             id="phone"
             type="number"
@@ -53,7 +53,7 @@ export default function ContactOne() {
           />
           <ValidationError prefix="Phone" field="phone" errors={state.errors} />
           <textarea
-            className="w-96 md:w-full h-[153px] rounded bg-tertiary pl-2 placeholder:text-gray-500 focus:outline-none"
+            className="w-80 md:96 md:w-full h-[153px] rounded bg-tertiary pl-2 placeholder:text-gray-500 focus:outline-none"
             placeholder="Message"
             id="message"
             type="text"
@@ -67,7 +67,7 @@ export default function ContactOne() {
           <button
             type="submit"
             disabled={state.submitting}
-            className={`w-96 flex justify-center items-center md:w-full h-12 rounded bg-tertiary text-center transition ease-in-out duration-200`}
+            className={`w-80 md:96 flex justify-center items-center md:w-full h-12 rounded bg-tertiary text-center transition ease-in-out duration-200`}
           >
             {state.submitting ? <ImSpinner11 size={20} /> : "Submit"}
           </button>

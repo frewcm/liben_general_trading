@@ -7,7 +7,7 @@ export default function WelcomeFour() {
         alt=""
       />
       <div className="w-11/12 mx-auto h-full flex flex-col justify-center gap-4 text-white">
-        <div className="mt-10 w-full md:w-2/3 lg:w-1/2 h-60 rounded flex flex-col p-10">
+        <div className="mt-4 md:mt-10 w-full md:w-2/3 lg:w-1/2 h-60 rounded flex flex-col p-4 md:p-10">
           <p className="text-2xl md:text-3xl font-kanit font-bold">
             Who we are...
           </p>
@@ -19,7 +19,7 @@ export default function WelcomeFour() {
             partnerships.
           </p>
         </div>
-        <div className="mt-10 w-full md:w-2/3 lg:w-1/2 h-60  rounded backdrop-blur-xl flex flex-col p-10">
+        <div className="mt-10 w-full md:w-2/3 lg:w-1/2 h-48 md:h-60  rounded backdrop-blur-xl flex flex-col justify-center p-4 md:p-10">
           <p className="text-2xl md:text-3xl font-kanit font-bold">
             Our Mission.
           </p>

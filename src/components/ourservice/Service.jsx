@@ -10,7 +10,7 @@ export default function Service() {
           src="service.jpg"
           alt=""
         />
-        <p className="absolute top-36 text-white text-4xl font-kanit font-bold">
+        <p className="absolute top-44 md:top-36 text-white text-3xl md:text-4xl font-kanit font-bold">
           Explore Our Services
         </p>
       </div>
