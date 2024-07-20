@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 export default function Hero() {
   const parentVariant = {
@@ -71,7 +72,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="absolute top-0 w-full h-[800px] md:h-screen overflow-hidden">
+    <section className="absolute top-0 w-full h-dvh  md:h-screen overflow-hidden">
       <motion.div
         variants={parentVariant}
         initial="hidden"
@@ -83,25 +84,38 @@ export default function Hero() {
             variants={sloganVariants}
             initial="hidden"
             animate="visible"
-            className="md:w-10/12 mt-28 md:mt-16 text-3xl md:text-5xl font-kanit leading-snug tracking-wide text-center md:text-start"
+            className="md:w-10/12 mt-10  md:mt-16 text-3xl md:text-5xl font-kanit leading-snug tracking-wide text-center md:text-start"
           >
             Your Gateway to Efficient International Commerce Solutions
           </motion.p>
           <motion.button
             variants={buttonVariants}
+            whileHover={{
+              scale: 1.1,
+            }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", duration: 0.3 }}
             initial="hidden"
             animate="visible"
-            className="mt-4 px-4 py-2 md:px-4 md:py-2 bg-secondary rounded"
+            className="mt-2 px-3 py-1.5 md:px-4 md:py-2 cursor-pointer bg-secondary rounded"
           >
-            Look Around.
+            <Link
+              to="service"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Look Around.
+            </Link>
           </motion.button>
         </div>
-        <div className="relative">
+        <div className="relative w-full flex items-center  justify-center ">
           <motion.img
             variants={carVariants}
             initial="hidden"
             animate="visible"
-            className="absolute bottom-10 md:bottom-0 left-6 w-64 md:w-[400px] "
+            className="absolute bottom-10 md:bottom-0 w-64 md:w-[400px] "
             src="car.png"
             alt=""
           />
@@ -117,7 +131,7 @@ export default function Hero() {
             variants={planeVariants}
             initial="hidden"
             animate="visible"
-            className="absolute bottom-48 left-10 md:left-20 md:bottom-56 w-64 md:w-80"
+            className="absolute bottom-48  md:bottom-56 w-64 md:w-80"
             src="plane.png"
             alt=""
           />

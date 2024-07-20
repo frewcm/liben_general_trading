@@ -42,23 +42,39 @@ export default function Nav() {
       className="h-[500px] py-24 bg-white text-gray-950 fixed z-50 top-24 w-11/12 flex flex-col items-center justify-end gap-8 text-xl"
     >
       <li>
-        <Link onClick={() => setOpen(false)} to="/">
+        <Link
+          className="pb-1 border-b-2 border-white hover:border-secondary transition duration-200 ease-in-out"
+          onClick={() => setOpen(false)}
+          to="/"
+        >
           Welcome
         </Link>
       </li>
       <li>
-        <Link onClick={() => setOpen(false)} to="/service">
+        <Link
+          className="pb-1 border-b-2 border-white hover:border-secondary transition duration-200 ease-in-out"
+          onClick={() => setOpen(false)}
+          to="/service"
+        >
           Services
         </Link>
       </li>
 
       <li>
-        <Link onClick={() => setOpen(false)} to="/about">
+        <Link
+          className="pb-1 border-b-2 border-white hover:border-secondary transition duration-200 ease-in-out"
+          onClick={() => setOpen(false)}
+          to="/about"
+        >
           About
         </Link>
       </li>
       <li>
-        <Link onClick={() => setOpen(false)} to="/contact">
+        <Link
+          className="pb-1 border-b-2 border-white hover:border-secondary transition duration-200 ease-in-out"
+          onClick={() => setOpen(false)}
+          to="/contact"
+        >
           Contact
         </Link>
       </li>
@@ -84,17 +100,37 @@ export default function Nav() {
           </div>
           <ul className="hidden h-full w-full lg:flex items-center justify-end gap-12 text-lg">
             <li>
-              <Link to="/">Welcome</Link>
+              <Link
+                className="pb-1 border-b-2 border-white hover:border-secondary transition duration-200 ease-in-out"
+                to="/"
+              >
+                Welcome
+              </Link>
             </li>
             <li>
-              <Link to="/service">Services</Link>
+              <Link
+                className="pb-1 border-b-2 border-white hover:border-secondary transition duration-200 ease-in-out"
+                to="/service"
+              >
+                Services
+              </Link>
             </li>
 
             <li>
-              <Link to="/about">About</Link>
+              <Link
+                className="pb-1 border-b-2 border-white hover:border-secondary transition duration-200 ease-in-out"
+                to="/about"
+              >
+                About
+              </Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link
+                className="pb-1 border-b-2 border-white hover:border-secondary transition duration-200 ease-in-out"
+                to="/contact"
+              >
+                Contact
+              </Link>
             </li>
           </ul>
           {!open ? (

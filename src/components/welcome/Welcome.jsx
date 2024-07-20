@@ -15,7 +15,9 @@ export default function Welcome() {
       />
       <Hero />
       <WelcomeOne />
-      <WelcomeTwo />
+      <div id="service">
+        <WelcomeTwo />
+      </div>
       <WelcomeThree />
       <div className="w-full h-10 backdrop-blur-sm"></div>
       <WelcomeFour />
