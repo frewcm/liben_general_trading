@@ -115,7 +115,7 @@ export default function Hero() {
             variants={carVariants}
             initial="hidden"
             animate="visible"
-            className="absolute bottom-10 md:bottom-0 w-64 md:w-[400px] "
+            className="absolute bottom-4 w-64 md:w-[400px] "
             src="car.png"
             alt=""
           />
@@ -123,7 +123,7 @@ export default function Hero() {
             variants={cargoVariants}
             initial="hidden"
             animate="visible"
-            className="absolute bottom-10 md:bottom-0 right-10 w-44 md:w-64"
+            className="absolute bottom-4 right-10 w-44 md:w-64"
             src="cargo.png"
             alt=""
           />
@@ -131,7 +131,7 @@ export default function Hero() {
             variants={planeVariants}
             initial="hidden"
             animate="visible"
-            className="absolute bottom-48  md:bottom-56 w-64 md:w-80"
+            className="absolute bottom-40  md:bottom-60 w-64 md:w-80"
             src="plane.png"
             alt=""
           />

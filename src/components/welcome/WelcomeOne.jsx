@@ -1,11 +1,11 @@
 export default function WelcomeOne() {
   return (
-    <section className="w-full h-[1100px] md:h-[650px] bg-white font-kanit">
-      <div className="w-11/12 mx-auto md:py-10 h-full flex flex-col items-center">
-        <p className="text-secondary my-2 mt-6">--welcome--</p>
-        <p className="text-4xl text-primary">What We Do Here</p>
+    <section className="w-full h-[1000px] md:h-[850px] lg:h-[550px] bg-white font-kanit">
+      <div className="w-11/12 mx-auto md:py-10 h-full flex flex-col items-center justify-start md:justify-center">
+        <p className="text-secondary mt-4 md:mt-0">--welcome--</p>
+        <p className="text-3xl md:text-4xl text-primary">What We Do Here</p>
         <div className="grid grid-cols-1 lg:grid-cols-2 mt-1">
-          <div className="w-11/12 mx-auto mt-4 flex flex-col text-lg">
+          <div className="w-full md:w-11/12 mx-auto mt-4 flex flex-col text-lg">
             <p className="text-center md:text-start">
               At Liben General Trading Company, we excel in a broad spectrum of
               import and export activities, catering to diverse market needs. We

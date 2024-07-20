@@ -9,7 +9,7 @@ export default function WelcomeTwo() {
         <p className="text-secondary font-bold shadow-2xl">
           Take a look at what we offer
         </p>
-        <p className="text-4xl font-bold text-white shadow-2xl">
+        <p className="text-3xl md:text-4xl font-bold text-white shadow-2xl">
           Our Core Services
         </p>
       </div>

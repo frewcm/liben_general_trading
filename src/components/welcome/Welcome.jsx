@@ -22,8 +22,12 @@ export default function Welcome() {
       <div className="w-full h-10 backdrop-blur-sm"></div>
       <WelcomeFour />
       <div className="w-full h-10 backdrop-blur-sm"></div>
-      <div className=" w-full">
-        <img className="h-full w-full object-contain" src="map.jpeg" alt="" />
+      <div className="w-full">
+        <img
+          className="h-44 md:h-full w-full object-cover md:object-contain"
+          src="map.jpeg"
+          alt=""
+        />
       </div>
       <Footer />
     </div>
