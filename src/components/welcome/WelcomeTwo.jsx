@@ -22,22 +22,22 @@ export default function WelcomeTwo() {
               transition={{ delay: 0.1 * i, duration: 0.5 }}
               viewport={{ once: true }}
               key={i}
-              className="w-11/12 mx-auto lg:w-full my-4 bg-white/80 backdrop-blur-md min-h-[400px] rounded-lg shadow-2xl drop-shadow-2xl"
+              className="w-11/12 mx-auto lg:w-full my-4 bg-white/80 backdrop-blur-md min-h-[440px] rounded-lg shadow-2xl drop-shadow-2xl"
             >
               <img
                 className="w-full h-56 object-cover rounded-t-lg"
                 src={service.img}
                 alt=""
               />
-              <p className="m-4 text-secondary font-kanit text-2xl truncate">
+              <p className="mt-2 mx-4 text-secondary font-kanit text-2xl truncate">
                 {service.title}
               </p>
-              <p className="my-6 mx-4 w-11/12 text-gray-400 text-lg lg:text-xl ">
+              <p className="m-4  w-11/12 text-gray-400 text-lg lg:text-xl line-clamp-3">
                 {service.description}
               </p>
               <Link
                 to="/service"
-                className="hover:bg-gray-900 hover:text-white hover:border-gray-900 transition ease-in-out mx-4 px-4 py-2 rounded-full border-2 border-primary text-secondary"
+                className="mt-4 hover:bg-gray-900 hover:text-white hover:border-gray-900 transition ease-in-out mx-4 px-4 py-2 rounded-full border-2 border-primary text-secondary"
               >
                 Learn more
               </Link>

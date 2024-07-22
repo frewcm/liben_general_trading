@@ -152,39 +152,7 @@ export default function ServiceTwo() {
           <p className="text-gray-900 font-kanit text-2xl">
             05. Pharmaceuticals Import
           </p>
-          {/* <p>
-            At Liben General Trading Company, we specialize in importing the
-            latest and most advanced medical equipment to meet the growing
-            healthcare needs of our clients. Our commitment to quality and
-            innovation drives us to source state-of-the-art medical technologies
-            from reputable manufacturers worldwide. We ensure that our products
-            incorporate the latest advancements, providing healthcare facilities
-            with cutting-edge tools to deliver superior patient care.
-          </p>
-          <p>
-            Understanding the economic challenges faced by many healthcare
-            providers, we strive to offer these top-tier medical equipment at
-            affordable prices. Our goal is to make high-quality medical
-            technologies accessible to a broader range of institutions, ensuring
-            that cost does not become a barrier to delivering exceptional
-            healthcare services.
-          </p>
-          <p>
-            We carefully analyze market trends and demand to import medical
-            equipment that addresses the specific needs of our region. By
-            staying attuned to the healthcare landscape, we ensure that our
-            product offerings are relevant and beneficial to our customers. This
-            includes a wide range of equipment such as diagnostic tools,
-            surgical instruments, and patient monitoring systems.
-          </p>
-          <p>
-            At Liben General Trading Company, we are dedicated to enhancing
-            healthcare outcomes by providing the latest medical equipment at
-            competitive prices. Our focus on quality, affordability, and
-            relevance ensures that healthcare providers have the tools they need
-            to improve patient care and support the well-being of their
-            communities.
-          </p> */}
+
           <p>
             Liben General Trading Company excels in importing high-demand
             pharmaceutical products, ensuring that healthcare providers have
@@ -223,6 +191,42 @@ export default function ServiceTwo() {
         <div className="flex flex-col mb-10 text-gray-900 gap-2">
           <p className="text-gray-900 font-kanit text-2xl">
             06. Pharmaceuticals Wholeasaler
+          </p>
+          <p>
+            Liben General Trading Company stands out as a premier
+            pharmaceuticals wholesaler, providing a comprehensive range of
+            in-demand pharmaceutical products. We are dedicated to ensuring that
+            healthcare providers have access to essential medications and
+            treatments, sourced from reputable manufacturers worldwide. Our
+            focus on high-quality pharmaceuticals guarantees that our clients
+            receive only the best products, contributing to improved patient
+            outcomes.
+          </p>
+          <p>
+            Affordability is a key component of our service. We understand the
+            budget constraints faced by many healthcare facilities, which is why
+            we offer competitive pricing on all our pharmaceutical products. By
+            maintaining affordable prices, we enable healthcare providers to
+            effectively manage their budgets while still delivering top-notch
+            patient care.
+          </p>
+          <p>
+            The transaction process with us is designed to be seamless and
+            efficient. We leverage advanced logistics and communication
+            technologies to ensure that orders are processed swiftly and
+            accurately. From the moment an order is placed to the final
+            delivery, our clients receive timely updates and support, ensuring a
+            hassle-free experience. This commitment to smooth transactions
+            allows healthcare providers to focus on their primary mission—caring
+            for patients.
+          </p>
+          <p>
+            By offering high-quality, in-demand pharmaceutical products at
+            affordable prices and ensuring a smooth transaction process, Liben
+            General Trading Company plays a vital role in supporting the
+            healthcare industry. Our dedication to quality, affordability, and
+            efficiency helps improve patient care and supports the well-being of
+            communities.
           </p>
         </div>
       </div>
