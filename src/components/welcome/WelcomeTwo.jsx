@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function WelcomeTwo() {
   return (
-    <section className="w-full md:h-[1450px] lg:h-[1100px] flex flex-col items-center justify-center backdrop-blur-sm">
+    <section className="w-full  md:h-[1450px] lg:h-[1100px] flex flex-col items-center justify-center backdrop-blur-sm">
       <div className="mt-8 md:mt-4 flex flex-col items-center justify-center">
         <p className="text-secondary font-bold shadow-2xl">
           Take a look at what we offer
@@ -22,7 +22,7 @@ export default function WelcomeTwo() {
               transition={{ delay: 0.1 * i, duration: 0.5 }}
               viewport={{ once: true }}
               key={i}
-              className="w-11/12 mx-auto lg:w-full my-4 bg-white/80 backdrop-blur-md h-[400px] rounded-lg shadow-2xl drop-shadow-2xl"
+              className="w-11/12 mx-auto lg:w-full my-4 bg-white/80 backdrop-blur-md min-h-[400px] rounded-lg shadow-2xl drop-shadow-2xl"
             >
               <img
                 className="w-full h-56 object-cover rounded-t-lg"
@@ -32,7 +32,7 @@ export default function WelcomeTwo() {
               <p className="m-4 text-secondary font-kanit text-2xl truncate">
                 {service.title}
               </p>
-              <p className="my-6 mx-4 w-11/12 text-gray-400 text-lg lg:text-xl truncate ">
+              <p className="my-6 mx-4 w-11/12 text-gray-400 text-lg lg:text-xl ">
                 {service.description}
               </p>
               <Link

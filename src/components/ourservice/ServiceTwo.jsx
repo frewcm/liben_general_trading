@@ -150,9 +150,9 @@ export default function ServiceTwo() {
         </div>
         <div className="flex flex-col mb-10 text-gray-900 gap-2">
           <p className="text-gray-900 font-kanit text-2xl">
-            05. Medical Equipment Import
+            05. Pharmaceuticals Import
           </p>
-          <p>
+          {/* <p>
             At Liben General Trading Company, we specialize in importing the
             latest and most advanced medical equipment to meet the growing
             healthcare needs of our clients. Our commitment to quality and
@@ -184,20 +184,16 @@ export default function ServiceTwo() {
             relevance ensures that healthcare providers have the tools they need
             to improve patient care and support the well-being of their
             communities.
-          </p>
-        </div>
-        <div className="flex flex-col mb-10 text-gray-900 gap-2">
-          <p className="text-gray-900 font-kanit text-2xl">
-            06. Pharmaceutical Products
-          </p>
+          </p> */}
           <p>
             Liben General Trading Company excels in importing high-demand
             pharmaceutical products, ensuring that healthcare providers have
-            access to essential medications and treatments. We source our
-            products from reputable manufacturers worldwide, guaranteeing the
-            highest quality and efficacy. Our focus on in-demand pharmaceuticals
-            allows us to cater to the specific needs of the healthcare market,
-            ensuring that the most critical medications are always available.
+            access to essential medications and medical supplies to provide
+            quality healthcare service. We source our products from reputable
+            manufacturers worldwide, guaranteeing the highest quality and
+            efficacy. Our focus on in-demand pharmaceuticals allows us to cater
+            to the specific needs of the healthcare market, ensuring that the
+            most critical medications and medical supplies are always available.
           </p>
           <p>
             Affordability is a cornerstone of our approach. We are committed to
@@ -222,6 +218,11 @@ export default function ServiceTwo() {
             Company plays a vital role in supporting the healthcare industry.
             Our commitment to quality, affordability, and efficiency helps
             improve patient outcomes and supports the well-being of communities.
+          </p>
+        </div>
+        <div className="flex flex-col mb-10 text-gray-900 gap-2">
+          <p className="text-gray-900 font-kanit text-2xl">
+            06. Pharmaceuticals Wholeasaler
           </p>
         </div>
       </div>
