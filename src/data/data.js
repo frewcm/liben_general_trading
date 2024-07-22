@@ -31,14 +31,14 @@ export const ServiceList = [
       "In the meadow, a gentle breeze rustled grass while a sparrow flitted between branches, under a velvet sky.",
   },
   {
-    title: "Medical Equipment Import",
-    img: medical,
+    title: "Pharmaceutical Import",
+    img: pharma,
     description:
       "In the meadow, a gentle breeze rustled grass while a sparrow flitted between branches, under a velvet sky.",
   },
   {
-    title: "Pharmaceutical Products",
-    img: pharma,
+    title: "Pharmaceutical WholeSaler",
+    img: medical,
     description:
       "In the meadow, a gentle breeze rustled grass while a sparrow flitted between branches, under a velvet sky.",
   },
