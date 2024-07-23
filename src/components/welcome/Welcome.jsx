@@ -10,7 +10,7 @@ export default function Welcome() {
     <div className="relative z-10 h-full w-full">
       <img
         className="sticky top-0 w-full h-screen object-cover z-[-2]"
-        src="ship-bg.jpg"
+        src="ship-bg.webp"
         alt=""
       />
       <Hero />

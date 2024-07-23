@@ -2,8 +2,8 @@ import dolomite from "/dolomite.jpeg";
 import construction from "/construction.jpeg";
 import cumin from "/cumin.jpg";
 import car from "/car.jpeg";
-import medical from "/medical.jpeg";
-import pharma from "/pharma.png";
+import medical from "/medical.jpg";
+import pharma from "/pharma.jpg";
 
 export const ServiceList = [
   {
