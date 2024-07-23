@@ -24,8 +24,8 @@ export default function Welcome() {
       <div className="w-full h-10 backdrop-blur-sm"></div>
       <div className="w-full">
         <img
-          className="h-44 md:h-full w-full object-cover md:object-contain"
-          src="map.jpeg"
+          className="h-56 md:h-full w-full object-cover md:object-contain"
+          src="we-are-here.png"
           alt=""
         />
       </div>
