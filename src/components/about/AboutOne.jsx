@@ -3,7 +3,7 @@ export default function AboutOne() {
     <section className="mt-96 w-full h-auto  bg-white">
       <div className="w-11/12 mx-auto h-full flex flex-col ">
         <div className="mt-10 flex flex-col items-center justify-center gap-6 font-kanit text-gray-900 text-lg pb-8">
-          <p className="text-center leading-9">
+          <p className="text-start leading-9">
             Liben General Trading Company is a dynamic and diversified
             enterprise based in Ethiopia, dedicated to delivering exceptional
             services across multiple industries. Our portfolio includes
@@ -13,7 +13,7 @@ export default function AboutOne() {
             innovation, and customer satisfaction, driven by our strong work
             ethic and excellent communication.
           </p>
-          <p className="text-center leading-9">
+          <p className="text-start leading-9">
             Our construction machinery rental service provides advanced and
             reliable equipment to support various construction projects
             throughout Ethiopia. We offer a wide range of machinery, including
@@ -24,7 +24,7 @@ export default function AboutOne() {
             team ensures timely delivery and support, helping clients overcome
             operational challenges and achieve their construction goals.
           </p>
-          <p className="text-center leading-9">
+          <p className="text-start leading-9">
             In the realm of agricultural exports, we specialize in the
             high-quality black cumin that Ethiopia is renowned for. Our black
             cumin is meticulously selected from the best regions, ensuring it
@@ -34,7 +34,10 @@ export default function AboutOne() {
             commitment to quality control and customer satisfaction has
             established us as a trusted supplier in the global market.
           </p>
-          <p className="text-center leading-9">
+          <div className="w-full">
+            <img className="max-w-full object-cover" src="ab.webp" alt="" />
+          </div>
+          <p className="text-start leading-9">
             We are also a leading importer and wholesaler of medicines and
             medical devices. Our extensive range of pharmaceutical products and
             medical equipment is sourced from reputable manufacturers around the
@@ -44,7 +47,7 @@ export default function AboutOne() {
             timely delivery and reliable service, enabling healthcare providers
             to focus on patient care without worrying about supply issues.
           </p>
-          <p className="text-center leading-9">
+          <p className="text-start leading-9">
             As part of our dedication to promoting sustainable and eco-friendly
             solutions, we import BYD electric vehicles, renowned for their
             cutting-edge technology and environmental benefits. These vehicles
@@ -54,7 +57,7 @@ export default function AboutOne() {
             towards greener transportation options and supporting the country’s
             efforts to reduce carbon emissions.
           </p>
-          <p className="text-center leading-9">
+          <p className="text-start leading-9">
             Located in Ethiopia, Liben General Trading Company is driven by a
             strong work ethic and a commitment to excellent communication. We
             believe that clear and effective communication is key to building
@@ -62,7 +65,7 @@ export default function AboutOne() {
             always ready to listen to your needs, provide timely updates, and
             offer support throughout every transaction.
           </p>
-          <p className="text-center leading-9">
+          <p className="text-start leading-9">
             At Liben General Trading Company, we are more than just a business;
             we are a partner in your success. Whether you need construction
             machinery, premium black cumin, high-quality pharmaceuticals, or

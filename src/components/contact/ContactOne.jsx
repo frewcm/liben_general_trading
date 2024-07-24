@@ -6,7 +6,7 @@ import { ImSpinner11 } from "react-icons/im";
 export default function ContactOne() {
   const [state, handleSubmit] = useForm("xovavnep");
   if (state.succeeded) {
-    redirect("/");
+    window.location.href = "/thank-you";
   }
   return (
     <section className="mt-96 w-full h-[900px] md:h-[800px]  bg-white">
@@ -53,7 +53,7 @@ export default function ContactOne() {
           />
           <ValidationError prefix="Phone" field="phone" errors={state.errors} />
           <textarea
-            className="w-80 md:96 md:w-full h-[153px] rounded bg-tertiary pl-2 placeholder:text-gray-500 focus:outline-none"
+            className="pt-2 w-80 md:96 md:w-full h-[153px] rounded bg-tertiary pl-2 placeholder:text-gray-500 focus:outline-none"
             placeholder="Message"
             id="message"
             type="text"
