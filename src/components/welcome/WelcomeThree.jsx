@@ -28,6 +28,11 @@ export default function WelcomeThree() {
             src="abyssinia.png"
             alt=""
           />
+          <motion.img
+            className="hover:scale-110 transition duration-200 ease-in-out h-[60px] md:h-32"
+            src="east.png"
+            alt=""
+          />
         </motion.div>
       </div>
     </section>
